@@ -1,0 +1,53 @@
+*{
+    background: white;
+}
+.calculadora {
+    display:block; /*por que no se va poder mover*/
+    margin: 0 auto;
+    padding: 10px;
+    background-color: aqua;
+    width: 400px;  /*ancho*/
+    height: 400px;  /*alto*/
+    border-radius: 10px;  /*para que tenga un tipo dfe borde*/
+}
+.calculadora td button{
+    display:block;
+    width: 90px;
+    height: 90;
+    font-size: 35px;
+    background: rgba(red); /*rgba es para llamar trasparencia
+                                ????? */
+    color: orange;
+    font-family: Verdana;
+    border-radius: 5px; /* ?????? */
+}
+.calculadora td button:hover{ /* estamos trabajando en la misma clase pero añadiendo un hover esta la manera correcta*/
+    background: royalblue;
+    color: white;
+    cursor: pointer;
+
+}
+#texto{     /* para llamar a un id se usa el # */
+    display:block;
+    padding-bottom: 20px;
+    font-family: monospace;
+    font-size: 20px;
+    color: brown;
+    text-align: left;
+    height: 5px;
+}
+#resultado{
+    display:block;
+    text-align: right;
+    font-size: 50px;
+    margin-bottom: 5px;
+    width: 373px;
+    height: 100px;
+    line-height: 100px;
+    background: rgba(red); /*rgba es para llamar trasparencia
+                                ????? */
+    color: orange;
+    font-family: Verdana;
+    border-radius: 5px;
+    overflow-y: scroll;
+}
